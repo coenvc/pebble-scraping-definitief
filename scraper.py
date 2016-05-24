@@ -35,7 +35,7 @@ linkCount = 0
 link = links[linkCount]
 browser = webdriver.PhantomJS('/usr/bin/phantomjs')
 sleep = time.sleep
-b = MySQLDatabase("pebble", host="82.196.10.191", port=3306, user="root", passwd="Denia123")
+db = MySQLDatabase("pebble", host="82.196.10.191", port=3306, user="root", passwd="Denia123")
 gegevens = []
 dictionary = {}
 tz = timezone('Europe/Amsterdam')
